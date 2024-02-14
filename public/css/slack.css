@@ -230,12 +230,79 @@ body {
      .features_grid_4 > .feat_card:first-of-type {
         grid-row: 1 / 3;
      }
+
+
+     .features2_section {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    
+        display: grid;
+        gap: var(--spacing-5);
+
+        background-image: url('/svg/feature/features2.svg');
+        background-repeat: no-repeat;
+        background-position: top left;
+     }
+
+    .features_block {
+        justify-self: flex-end;
+        width: 600px;
+        height: 162px;
+        
+    } 
+    
+    .features2_title {
+        font-size: var(--size-6);
+        
+    }
+    
+    .features2_description {
+        font-size: var(--size-2);
+        max-width: 520px;
+        padding-top: 30px;
+    }
+    
+    .feat2_card {
+        padding: var(--spacing-3);
+        background-color: var(--color-white);
+        display: grid;
+        gap: var(--spacing-3);
+    
+        font-size: var(--size-2);
+        
+        grid-template-rows: min-content min-content 1fr min-content;
+    }
+    
+    .feat_link {
+        justify-self: flex-end;
+    }
+    
+    .features_grid_3 {
+        display: grid;
+    
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    
+        gap: var(--spacing-3);
+        justify-self: flex-end;
+    }
+    
+     .features_grid_3 > .feat_card:first-of-type {
+        grid-row: 1 / 3;
+     }
+
+    
+    
 }
 
 @layer adaptive {
     @media all and (1260px <= width) {
         .page_content {
             max-width: var(--page-width-big);
+        }
+
+        .hero_image {
+            height: 436px;
         }
     }
     
