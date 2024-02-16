@@ -371,6 +371,7 @@ body {
 
   .card_content {
     margin: 14px;
+    /* margin-bottom: auto; */
   }
 
   .card_title {
@@ -387,19 +388,14 @@ body {
     font-size: 14px;
     line-height: 16px;
     color: #1264A3;
-
+    
     margin: 14px;
     /* margin-top: 50px; */
     display: flex;
     flex-direction: row;
     gap: 160px;
-    position: relative;
-  }
-
-  /* .card_footer_text {
     position: absolute;
-    bottom: 0;
-  } */
+  }
 
   .card_footer_arrow_right {
     color: #1264A3;
