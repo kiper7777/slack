@@ -132,7 +132,7 @@
     display: block;
 }
 
-..card_description_item:not(:last-of-type) {
+.card_description_item:not(:last-of-type) {
     margin-bottom: 12px;
 }
 
