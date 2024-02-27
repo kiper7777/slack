@@ -4,6 +4,7 @@
     <title>
       Slack page
     </title>
+
     <meta charset='utf-8' />
 
     <link
@@ -37,13 +38,6 @@
 
     <link href='css/normalize.css' rel='stylesheet' />
 
-    {{! <link
-      href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css'
-      rel='stylesheet'
-      integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD'
-      crossorigin='anonymous'
-    /> }}
-
     <link href='css/slack.css' rel='stylesheet' />
 
     <meta
@@ -55,11 +49,10 @@
 
   <body>
 
-    {{!  ↓  ця кострукція показує куди шаблонізатору треба вставляти код з container файлу   }}
-
     <div class='page'>
       <section class='page_section'>
         <div class='page_content hero_section'>
+
           <div class='hero'>
             <div class='hero_content'>
               <span class='hero_label'>Slack Features</span>
@@ -84,51 +77,50 @@
                 alt='Hero'
                 class='hero_image'
               />
-
             </div>
           </div>
 
           <div class='brands'>
             <img
-              src='img/brands/airbnb.png'
+              src='/img/brands/airbnb.png'
               alt='airbnb'
               class='brands_image'
             />
             <img
-              src='img/brands/intuit.png'
+              src='/img/brands/intuit.png'
               alt='intuit'
               class='brands_image'
             />
             <img
-              src='img/brands/newscorp.png'
+              src='/img/brands/newscorp.png'
               alt='newscorp'
               class='brands_image'
             />
             <img
-              src='img/brands/onemedical.png'
+              src='/img/brands/onemedical.png'
               alt='onemedical'
               class='brands_image'
             />
             <img
-              src='img/brands/sonos.png'
+              src='/img/brands/sonos.png'
               alt='sonos'
               class='brands_image'
             />
             <img
-              src='img/brands/target.png'
+              src='/img/brands/target.png'
               alt='target'
               class='brands_image'
-            /><img
-              src='img/brands/uber.png'
+            />
+            <img
+              src='/img/brands/uber.png'
               alt='uber'
               class='brands_image'
             />
             <img
-              src='img/brands/va.png'
+              src='/img/brands/va.png'
               alt='va'
               class='brands_image'
             />
-
           </div>
 
         </div>
@@ -147,7 +139,7 @@
             <div class='feat_card'>
               <span
                 class='icon feat_icon'
-                style="background-image: url('/svg/feature/connect.svg');"
+                style="background-image: url('/svg/feature/connect.svg')"
               ></span>
               <strong>Slack Connect</strong>
               <p class='double_line'>Collaborate with teams
@@ -162,7 +154,7 @@
             <div class='feat_card'>
               <span
                 class='icon feat_icon'
-                style="background-image: url('/svg/feature/channels.svg');"
+                style="background-image: url('/svg/feature/channels.svg')"
               ></span>
               <strong
                 class='feat_card_title'
@@ -176,7 +168,7 @@
             <div class='feat_card'>
               <span
                 class='icon feat_icon'
-                style="background-image: url('/svg/feature/huddles.svg');"
+                style="background-image: url('/svg/feature/huddles.svg')"
               ></span>
               <strong
                 class='feat_card_title'
@@ -190,7 +182,7 @@
             <div class='feat_card'>
               <span
                 class='icon feat_icon'
-                style="background-image: url('/svg/feature/clips.svg');"
+                style="background-image: url('/svg/feature/clips.svg')"
               ></span>
               <strong class='feat_card_title'>Clips</strong>
               <a
@@ -202,7 +194,7 @@
             <div class='feat_card'>
               <span
                 class='icon feat_icon'
-                style="background-image: url('/svg/feature/canvas.svg');"
+                style="background-image: url('/svg/feature/canvas.svg')"
               ></span>
               <strong
                 class='feat_card_title'
@@ -216,7 +208,7 @@
             <div class='feat_card'>
               <span
                 class='icon feat_icon'
-                style="background-image: url('/svg/feature/messaging.svg');"
+                style="background-image: url('/svg/feature/messaging.svg')"
               ></span>
               <strong
                 class='feat_card_title'
@@ -230,7 +222,7 @@
             <div class='feat_card'>
               <span
                 class='icon feat_icon'
-                style="background-image: url('/svg/feature/accessibility.svg');"
+                style="background-image: url('/svg/feature/accessibility.svg')"
               ></span>
               <strong
                 class='feat_card_title'
@@ -240,91 +232,12 @@
                 class='icon icon_arrow click feat_link'
               ></a>
             </div>
+
           </div>
         </div>
       </section>
-
-      <section class='page_section page_section_light'>
-        <div class='page_content features2_section'>
-          <div class='features_block'>
-            <h2 class='features2_title'>What you need, when
-              you need it</h2>
-            <p
-              class='features2_description double_line'
-            >Spend less time shuffling tabs with a
-              comprehensive message archive and all your
-              work tools at your fingertips.</p>
-          </div>
-
-          <div class='features_grid_3'>
-            <div class='feat2_card'>
-              <span
-                class='icon feat_icon'
-                style="background-image: url('/svg/feature/apps.svg');"
-              ></span>
-              <strong>Apps and Integrations</strong>
-              <p class='double_line'>Streamline work by
-                connecting Slack with other services like
-                Google Drive, Office 365 and over 2,200
-                more.</p>
-              <a
-                href='#'
-                class='icon icon_arrow click feat_link'
-              ></a>
-            </div>
-
-            <div class='feat_card'>
-              <span
-                class='icon feat_icon'
-                style="background-image: url('/svg/feature/workflow.svg');"
-              ></span>
-              <strong class='feat_card_title'>Workflow
-                Builder</strong>
-              <p class='double_line'>Automate routine
-                actions and communication, so you can get
-                back to the kind of work only humans can do.</p>
-              <a
-                href='#'
-                class='icon icon_arrow click feat_link'
-              ></a>
-            </div>
-
-            <div>
-              <div class='feat_card'>
-                <span
-                  class='icon feat_icon'
-                  style="background-image: url('/svg/feature/search.svg');"
-                ></span>
-                <strong
-                  class='feat_card_title'
-                >Search</strong>
-                <a
-                  href='#'
-                  class='icon icon_arrow click feat_link'
-                ></a>
-              </div>
-
-              <div class='feat_card'>
-                <span
-                  class='icon feat_icon'
-                  style="background-image: url('/svg/feature/file.svg');"
-                ></span>
-                <strong class='feat_card_title'>File sharing</strong>
-                <a
-                  href='#'
-                  class='icon icon_arrow click feat_link'
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
     </div>
 
-    <script
-      src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js'
-    ></script>
   </body>
 
 </html>
